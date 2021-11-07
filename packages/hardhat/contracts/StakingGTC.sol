@@ -66,12 +66,6 @@ contract StakingGTC is Ownable {
   }
 
 
-  // initialize pool
-  function initializePool() public {
-
-  }
-
-
   // deposit/stake
   function stake(address asset, uint256 amount, uint256 poolId) public {
     PoolInfo storage pool = poolInfo[poolId];
